@@ -18,7 +18,7 @@ class Program
         Console.Write("Enter degrees fahrenheit (°): ");
         fahrenheit = float.Parse(Console.ReadLine());
 
-        celsius = (fahrenheit - 32) * 5/9;
+        celsius = ( fahrenheit - 32 ) * 5/9;
 
         Console.WriteLine("");
         Console.Write("Degrees in Celsius = " + celsius.ToString("0.00") + "°");
