@@ -10,15 +10,15 @@ class Program
     public static void Main(string[] args)
     {
         // This function converts fahrenheit to celsius
-        float fahrenheit;
-        float celsius;
+        double fahrenheit;
+        double celsius;
 
         Console.WriteLine("This program converts fahrenheit to celsius");
         Console.WriteLine("");
         Console.Write("Enter degrees fahrenheit (°): ");
-        fahrenheit = float.Parse(Console.ReadLine());
+        fahrenheit = double.Parse(Console.ReadLine());
 
-        celsius = ( fahrenheit - 32 ) * 5/9;
+        celsius = ((fahrenheit - 32) * 5.0 / 9.0);
 
         Console.WriteLine("");
         Console.Write("Degrees in Celsius = " + celsius.ToString("0.00") + "°");
